@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interactive FOUNDATION OF QUANTUM AND PHOTONIC TECHNOLOGIES LAB">
+  <title>FOUNDATION OF QUANTUM AND PHOTONIC TECHNOLOGIES LAB</title>
+  <link rel="stylesheet" href="style.css">
+<style id="playfair-global">
+html, body, body * {
+  font-family: "Playfair Display", Georgia, serif !important;
+}
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#">
+        <span class="brand-mark" aria-hidden="true"><img src="infinity-logo.png" alt=""></span>
+        <span>
+          <strong>FOUNDATION OF QUANTUM AND PHOTONIC TECHNOLOGIES LAB</strong>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation">☰</button>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#experiments">Experiments</a>
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-grid"></div>
+      <div class="container hero-content">
+        <div class="eyebrow">DIGITAL LAB</div>
+        <h1>Experiment.<br><span>Measure.</span> Understand.</h1>
+        <p>
+          A digital companion for your FOUNDATION OF QUANTUM AND PHOTONIC TECHNOLOGIES LAB —
+          combining experiment procedures, calculations, observations and
+          interactive visualizations in one place.
+        </p>
+      </div>
+
+      <div class="hero-equation" aria-hidden="true">
+        <span>∇ · B = 0</span>
+        <span>E = hν</span>
+        <span>d sin θ = nλ</span>
+      </div>
+    </section>
+
+    <section id="today-lab" class="section today-section">
+      <div class="container">
+        <div class="section-heading today-heading">
+          <div>
+            <div class="eyebrow">WEEKLY TIMETABLE</div>
+            <h2>Today in the lab</h2>
+          </div>
+          <div class="today-date" id="today-date">Loading today's schedule…</div>
+        </div>
+
+        <div class="today-panel">
+          <div class="today-status" id="today-status"></div>
+          <div class="session-list" id="session-list" aria-live="polite"></div>
+          <div class="today-actions">
+            <a class="button primary" href="Engineering_Physics_Odd_Sem_Time_Table_2026.pdf" target="_blank" rel="noopener">View Full Timetable →</a>
+            <a class="button secondary dark-button" href="lab-schedule.html" target="_blank" rel="noopener">View Lab Schedule →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experiments" class="section container">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">LAB MANUAL • EXPERIMENTS 01–08</div>
+          <h2>Choose an experiment</h2>
+        </div>
+        <div class="experiment-search-heading">
+          <label class="sr-only" for="lab-search">Search experiments and concepts</label>
+          <div class="lab-search-wrap experiment-search-wrap">
+            <input id="lab-search" type="search" autocomplete="off" placeholder="Search experiments, concepts, apparatus...">
+            <button id="lab-search-button" type="button">Search</button>
+          </div>
+          <div id="lab-search-results" class="lab-search-results experiment-search-results" aria-live="polite"></div>
+        </div>
+      </div>
+
+      <div class="experiment-grid">
+        <article class="experiment-card featured">
+          <div class="card-number">01</div>
+          <div class="card-icon">λ</div>
+          <div class="card-body">
+            <span class="tag">OPTICS • SPECTROMETER</span>
+            <h3>Diffraction Grating</h3>
+            <p>Determine the wavelengths of prominent mercury spectral lines using a plane diffraction grating.</p>
+            <a href="experiment-01.html">Open experiment <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="experiment-card">
+          <div class="card-number">02</div>
+          <div class="card-icon">μ</div>
+          <div class="card-body">
+            <span class="tag">OPTICS • SPECTROMETER</span>
+            <h3>Refractive Index of Prism</h3>
+            <p>Determine the refractive index of the material of a prism using minimum deviation.</p>
+            <a href="experiment-02.html">Open experiment <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="experiment-card">
+          <div class="card-number">03</div>
+          <div class="card-icon">h</div>
+          <div class="card-body">
+            <span class="tag">MODERN PHYSICS</span>
+            <h3>Photoelectric Effect</h3>
+            <p>Determine Planck's constant and the work function of the particular material.</p>
+            <a href="experiment-03.html">Open experiment <span>↗</span></a>
+          </div>
+        </article>
+
+        <article class="experiment-card">
+          <div class="card-number">04</div>
+          <div class="card-icon">B</div>
+          <div class="card-body">
+            <span class="tag">ELECTROMAGNETISM</span>
+            <h3>Circular Coil</h3>
+            <p>Determine Earth's horizontal magnetic field and study field variation along the coil axis.</p>
+            <a href="experiment-04.html">Open experiment <span>↗</span></a>
+          </div>
+        </article>
+        <article class="experiment-card placeholder-card">
+          <div class="card-number">05</div>
+          <div class="card-icon">—</div>
+          <div class="card-body">
+            <span class="tag">EXPERIMENT 05</span>
+            <h3>Experiment 05</h3>
+            <p>Content to be added.</p>
+          </div>
+        </article>
+
+        <article class="experiment-card placeholder-card">
+          <div class="card-number">06</div>
+          <div class="card-icon">—</div>
+          <div class="card-body">
+            <span class="tag">EXPERIMENT 06</span>
+            <h3>Experiment 06</h3>
+            <p>Content to be added.</p>
+          </div>
+        </article>
+
+        <article class="experiment-card placeholder-card">
+          <div class="card-number">07</div>
+          <div class="card-icon">—</div>
+          <div class="card-body">
+            <span class="tag">EXPERIMENT 07</span>
+            <h3>Experiment 07</h3>
+            <p>Content to be added.</p>
+          </div>
+        </article>
+
+        <article class="experiment-card placeholder-card">
+          <div class="card-number">08</div>
+          <div class="card-icon">—</div>
+          <div class="card-body">
+            <span class="tag">EXPERIMENT 08</span>
+            <h3>Experiment 08</h3>
+            <p>Content to be added.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="features" class="section feature-section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow">MORE THAN A PDF</div>
+            <h2>A lab that works with you</h2>
+          </div>
+          <p>The next stages will turn these experiment pages into interactive laboratory tools.</p>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature">
+            <span>01</span>
+            <h3>Smart Calculations</h3>
+            <p>Enter observations and let the website perform the required calculations automatically.</p>
+          </div>
+          <div class="feature">
+            <span>02</span>
+            <h3>Live Graphs</h3>
+            <p>Plot experimental data directly in the browser and visualize the physics behind the measurements.</p>
+          </div>
+          <div class="feature">
+            <span>03</span>
+            <h3>Interactive Theory</h3>
+            <p>Connect equations, apparatus and physical concepts instead of simply reading a procedure.</p>
+          </div>
+          <div class="feature">
+            <span>04</span>
+            <h3>Viva Practice</h3>
+            <p>Prepare for laboratory viva questions experiment by experiment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section container">
+      <div class="about-panel">
+        <div class="eyebrow">THE IDEA</div>
+        <h2>From laboratory manual to digital laboratory.</h2>
+        <p>
+          This website is being built around the four experiments in the supplied
+          laboratory manual. The original experiment structure will remain the
+          foundation; interactive calculations, graphs and visual explanations
+          will be added on top of it.
+        </p>
+      </div>
+      <div class="about-stat">
+        <strong>04</strong>
+        <span>Experiments<br>in the first module</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span class="footer-brand"><span class="footer-mark" aria-hidden="true"><img src="infinity-logo.png" alt=""></span><span>FOUNDATION OF QUANTUM AND PHOTONIC TECHNOLOGIES LAB</span></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+<script>
+  // Rotate the home-page hero image by day. Everyone sees the same design on the same day.
+  (function () {
+    const hero = document.querySelector('.hero');
+    if (!hero) return;
+    const heroImages = [
+      'hero-blue.jpg',
+      'hero-orange.jpg',
+      'hero-fiber.jpg'
+    ];
+    const dayIndex = new Date().getDay(); // Sun = 0, Mon = 1, ... Sat = 6
+    const imageIndex = dayIndex % heroImages.length;
+    hero.style.setProperty('--hero-image', `url("${heroImages[imageIndex]}")`);
+    hero.dataset.heroDay = dayIndex;
+  })();
+</script>
+
+<style id="v30-header-height-refinement">
+/* V30: slightly taller experiment header for clearer separation from quick access. */
+.exp-hero, .exp4-hero {
+  padding-top: 45px !important;
+  padding-bottom: 34px !important;
+}
+@media (max-width: 900px) {
+  .exp-hero, .exp4-hero {
+    padding-top: 34px !important;
+    padding-bottom: 26px !important;
+  }
+}
+</style>
+</body>
+</html>
